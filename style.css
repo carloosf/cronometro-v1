@@ -1,0 +1,58 @@
+
+body{
+    background-color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    margin: 0;
+    grid-area: vazio;
+    
+}
+
+
+header{
+    display: grid;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+main{
+    display: grid;
+    justify-content: center;
+    column-gap: 4px;
+    grid-template-areas: 
+                        'timer timer timer'
+                        'button button button';
+
+}
+
+.button{
+    background-color: brown;
+    border: 2px solid white;
+    color: aliceblue;
+    padding: 15px 32px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.button:hover{
+    background-color: aliceblue;
+    color: brown;
+    font: bolder ;
+}
+
+.button:active{
+    box-shadow: 0 5px rgb(49, 26, 26);
+    transform: translateY(4px);
+}
+
+#timer{
+    font-size: 40px;
+    grid-area: timer;
+    display: flex;
+    justify-content: center;
+    
+
+}
