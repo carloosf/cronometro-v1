@@ -10,7 +10,7 @@
 ![imagem-projeto-final](Screen-main.PNG)
 
 ---
-## :man_technologist:  Autora
+## :man_technologist:  Autor
 
 <table class="author">
   <tr>
